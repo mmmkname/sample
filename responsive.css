@@ -1,0 +1,73 @@
+@media(max-width:900px){
+
+.sidebar {
+  display: none;
+}
+
+.main {
+  width: 100%;
+}
+
+}
+
+@media(min-width:900px){
+
+  header {
+    display: none;
+  }
+}
+
+@media(max-width:700px){
+
+  .img-block1 img {
+    width: 100%;
+  }
+
+  .brand-contents {
+    display: block;
+  }
+
+  .contents-item {
+    width: 100%;
+    padding: 5% 0;
+  }
+  .contents-item img {
+    width: 30%;
+  }
+  .contents-item p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .project {
+    padding-bottom: 80px;
+  }
+
+  .project-contents {
+    display: block;
+    padding: 20px 0;
+  }
+
+  .project-contents img {
+    width: 80%;
+    height: 30%;
+    padding: 30px 0;
+  }
+
+  .fotter {
+    display: block;
+    padding: 50px 0 80px 0;
+  }
+
+  .ggmap {
+    width: 90%;
+    height: 20%;
+    position: relative;
+  }
+
+  .adress {
+    margin-bottom: 40px;
+  }
+
+
+}

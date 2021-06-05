@@ -1,0 +1,309 @@
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+header {
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+
+.header-cover {
+  z-index: 1000;
+  text-align: center;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+}
+
+header img {
+  width: 15%;
+  padding-top: 15px;
+}
+
+.fa-bars {
+  color: white;
+  float: right;
+  padding: 20px 20px 0 0;
+}
+
+.checkbtn:checked ~ .navi {
+  transform: translateY(10%)
+}
+
+.checkbtn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  transform: scale(1.8);
+  opacity: 0;
+  z-index: 2000;
+}
+
+.navi {
+  background-color: black;
+  padding-top: 30px;
+  transform: translateY(-120%);
+  transition: 0.5s;
+}
+
+.header-menu {
+  width: 100%;
+  list-style: none;
+  margin: 0;
+  text-align: left;
+  padding: 0;
+  z-index: 30;
+}
+
+.header-menu li {
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+  font-size: 13px;
+}
+
+.fa-chevron-right {
+  padding: 0 10px;
+}
+
+.header-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-menu a:hover {
+  text-decoration: underline;
+}
+
+.header-icon {
+  text-align: left;
+  padding: 10px 0;
+  border-bottom: 0.5px solid white;
+}
+
+.header-icon a {
+  color: white;
+  padding: 0 10px;
+}
+
+.sidebar {
+  background-color: #000;
+  width: 20%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+
+.side-logo {
+  width: 100px;
+  padding: 30px 0 0 50px;
+}
+
+.side-menu {
+  padding: 30px 0 0 50px;
+}
+
+.side-menu li {
+  color: white;
+  list-style: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding-bottom: 30px;
+}
+
+.side-menu li:hover {
+  text-decoration: underline;
+}
+
+.side-icon {
+  padding: 20px 0 0 50px;
+}
+
+.side-icon a {
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.side-icon a:hover {
+  opacity: 0.8;
+}
+
+.main {
+  width: 80%;
+  background-color: black;
+}
+
+.header-left {
+  width: 100%;
+}
+
+.main-title {
+  width: 60%;
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-message {
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 40px 0;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.main-title p {
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 2;
+}
+
+.img-block1 {
+  width: 100%;
+  padding-top: 70px;
+}
+
+.img-block1 img {
+  width: 33.333%;
+}
+
+.img-block2 img {
+  width: 100%;
+}
+
+.brand {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.brand-logo {
+  color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 20px;
+}
+
+.brand-contents {
+  display: flex;
+  border-bottom: 2px solid white;
+}
+
+.contents-item {
+  text-align: center;
+  width: 25%;
+  padding:30px;
+}
+
+.contents-item img {
+  width: 80%;
+}
+
+.contents-item p {
+  color: white;
+  text-align: left;
+  font-size: 13px;
+  padding: 10px;
+  line-height: 2;
+  width: 90%;
+}
+
+.project {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.project-top {
+  color: white;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.project-contents {
+  display: flex;
+}
+
+.project-contents img {
+  width: 40%;
+  height: 30%;
+  padding: 30px 0;
+}
+
+.p-wropper {
+  color: white;
+  padding: 10px 20px;
+  font-size: 14px;
+  line-height: 2;
+  text-align: left;
+}
+
+.company {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.company-top {
+  color: white;
+  font-size: 20px;
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  padding: 30px 0;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.fotter {
+  display: flex;
+  padding: 50px 0 200px 0;
+}
+
+.adress {
+  color: white;
+  text-align: left;
+  margin-right: 15%;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.ggmap {
+  width: 60%;
+  position: relative;
+  padding-bottom: 15%;
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.end {
+  color: white;
+  margin:0;
+  font-size: 10px;
+  padding: 90px 0;
+}
+
+.end a {
+  text-decoration: none;
+}
+
+.end a:hover {
+  text-decoration: underline;
+}
+
